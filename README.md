@@ -29,16 +29,14 @@ Bank-Customer-Churn-Analysis/
 ├── README.md
 ├── data/
 │   └── Bank_Customer_Churn_Prediction.csv
-├── sql/
-│   ├── 01_create_table.sql
-│   ├── 02_import_data.sql
-│   ├── 03_data_validation.sql
-│   ├── 04_segmentation.sql
-│   ├── 05_churn_analysis.sql
-│   ├── 06_window_functions.sql
-│   └── 07_views.sql
-└── insights/
-    └── key_findings.md
+└── sql/
+   ├── 01_create_table.sql          
+   ├── 02_import_data.sql           
+   ├── 03_data_validation.sql      
+   ├── 04_segmentation.sql          
+   ├── 05_churn_analysis.sql        
+   ├── 06_window_functions.sql      
+   └── 07_views.sql                  
 ```
 
 ---
@@ -71,6 +69,31 @@ Bank-Customer-Churn-Analysis/
 - **Database:** PostgreSQL 18
 - **Interface:** pgAdmin 4
 - **Language:** SQL (DDL, DML, Aggregations, Window Functions, Subqueries, Views)
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone this repository.
+
+```bash
+git clone https://github.com/nikitagaikwad0111/Bank-Customer-Churn-Analysis.git
+```
+
+2. Open PostgreSQL and create a new database.
+
+3. Execute `01_create_table.sql` to create the customer churn table.
+
+4. Import the dataset (`Bank Customer Churn Prediction.csv`) using the `02_import_data.sql` script or PostgreSQL's Import/Export feature.
+
+5. Run the remaining SQL scripts in sequence:
+   - `03_data_validation.sql`
+   - `04_segmentation.sql`
+   - `05_churn_analysis.sql`
+   - `06_window_functions.sql`
+   - `07_views.sql`
+
+6. Review the generated insights and SQL views for customer churn analysis.
 
 ---
 
@@ -124,4 +147,4 @@ Created reusable views combining all segmentation logic for Power BI connectivit
 
 **Nikita Gaikwad**
 - GitHub: [@nikitagaikwad0111](https://github.com/nikitagaikwad0111)
-- LinkedIn: [linkedin.com/in/nikita-gaikwad](#)
+- LinkedIn: [linkedin.com/in/nikita-gaikwad](http://linkedin.com/in/nikita-gaikwad-3b449a221)
